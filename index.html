@@ -2,20 +2,26 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Алтынай, давай встречаться?</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <h1>Алтынай, давай встречаться?</h1>
-    <button id="yesBtn">Согласна</button>
-    <button id="noBtn">Отказываюсь</button>
+    <div class="buttons">
+      <button id="yesBtn">Согласна</button>
+      <button id="noBtn">Отказываюсь</button>
+    </div>
   </div>
 
+  <!-- Музыка -->
   <audio id="song" src="makan_kak_zhe.mp3"></audio>
-  <canvas id="fireworks"></canvas>
 
+  <!-- Холст для анимаций -->
+  <canvas id="canvas"></canvas>
+
+  <!-- Скрипт -->
   <script src="script.js"></script>
 </body>
 </html>
